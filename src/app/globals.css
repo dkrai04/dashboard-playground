@@ -23,6 +23,14 @@ body {
 body {
   background: var(--background);
   color: var(--foreground);
+  font-family: var(--font-inter-display), sans-serif;
+}
+
+
+/* Override Blend ProgressBar SEGMENTED segment width */
+.progress-bar-wrapper div {
+  background-size: 9px 100% !important;
+  opacity: 1 !important;
 }
 
 /* Ensure Blend Sidebar container fills available height (parent is flex) */
