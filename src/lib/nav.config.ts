@@ -7,6 +7,7 @@ export const NAV_ITEMS = [
   { path: "/dashboard", label: "Dashboard", icon: "SquaresFour" },
   { path: "/analytics", label: "Analytics", icon: "ChartLineUp" },
   { path: "/spriha/infra-scale-up", label: "Spriha", icon: "Layout" },
+  { path: "/spriha/sub-merchants", label: "Sub Merchants", icon: "SquaresFour" },
 ] as const;
 
 export type NavPath = (typeof NAV_ITEMS)[number]["path"];
